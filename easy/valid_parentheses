@@ -1,0 +1,29 @@
+class Solution {
+public:
+    bool isValid(string s) {
+        string pile = "";
+
+    for (int p = 0; p < s.size(); p++) {
+        char c = s[p];
+        if (c == '(' || c == '{' || c == '[') {
+            pile = pile + c;
+        } else {
+            if (pile.size() == 0) {
+                return false;
+            }
+            char last = pile[pile.size() - 1];
+            pile = pile.substr(0, pile.size() - 1);
+            if (c == ')' && last != '(') return false;
+            if (c == '}' && last != '{') return false;
+            if (c == ']' && last != '[') return false;
+        }
+    }
+
+    if (pile.size() == 0) {
+        return true;
+    } else {
+        return false;
+    }
+        
+    }
+};
