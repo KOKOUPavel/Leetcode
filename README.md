@@ -1,16 +1,16 @@
-# leetcode
+# Leetcode
 
 Just solving problems.
 
 
-## structure
+## Structure
 
 - easy/
 - medium/
 - hard/
 
 
-## languages
+## Languages
 
 C / C++
 
