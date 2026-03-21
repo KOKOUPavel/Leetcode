@@ -1,8 +1,7 @@
 # leetcode
 
-just solving problems.
+Just solving problems.
 
----
 
 ## structure
 
@@ -10,10 +9,8 @@ just solving problems.
 - medium/
 - hard/
 
----
 
 ## languages
 
 C / C++
 
----
