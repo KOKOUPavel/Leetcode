@@ -1,7 +1,19 @@
 # leetcode
 
-practice.
+just solving problems.
 
-easy / medium / hard
+---
 
-c / cpp
+## structure
+
+- easy/
+- medium/
+- hard/
+
+---
+
+## languages
+
+C / C++
+
+---
