@@ -12,5 +12,5 @@ Just solving problems.
 
 ## Languages
 
-C / C++
+C / C++ / PHP / TypeScript
 
